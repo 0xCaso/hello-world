@@ -1,0 +1,71 @@
+:root {
+    --primary: rgb(235, 80, 121);
+    --secondary: rgb(155, 24, 59);
+    --background: rgb(24, 24, 24);
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    width: fit-content;
+    margin: auto;
+    background-color: var(--background);
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    padding-bottom: 0.1px;
+    border-bottom: 1px solid var(--primary);
+}
+
+a:visited {
+    color: var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+}
+
+#name {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+main {
+    margin: 1.5em;
+    padding: 3em 5em;
+    background: rgb(22 22 22 / 31%);
+    box-shadow: 0 8px 32px 0 rgb(107 107 107 / 37%);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 55px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#links {
+    margin-top: 1em;
+}
+
+section > h2 {
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+section > ul {
+    margin-top: 0.5em;
+}
+
+body::-webkit-scrollbar {
+    width: 1.2em;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--primary);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--background);    /* color of the scroll thumb */
+}
