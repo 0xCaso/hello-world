@@ -35,7 +35,7 @@ a:visited {
 }
 
 main {
-    margin: 1.5em;
+    margin: 1.5em 17%;
     padding: 3em 5em;
     background: rgb(22 22 22 / 31%);
     box-shadow: 0 8px 32px 0 rgb(107 107 107 / 37%);
@@ -68,6 +68,15 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--background);    /* color of the scroll thumb */
+}
+
+.spaced-ul > li {
+    padding-bottom: 1em;
+}
+
+.stack {
+    float: right;
+    color: aqua;
 }
 
 @media only screen and (max-width: 600px) {
